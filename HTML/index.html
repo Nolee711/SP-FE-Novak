@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="sr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DVG Company</title>
+    <link rel="stylesheet" href="../CSS/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  </head>
+  <body>
+
+      <!-- ovo ce biti popup prozor -->
+      <div class="popup-overlay">
+        <div class="popup-container">
+          <div class="popup-card">
+            <h2>Obavestenje</h2>
+            <p>Ovaj sajt koristi kolacice</p>
+            <button id="close-popup">Prihvati</button>
+          </div>
+        </div>
+      </div>
+
+
+
+
+
+
+    <header>
+      <div class="gornja-sekcija">
+        <div class="gornji-desni-deo">
+          <div class="logo-dvg">
+            <img src="../SLIKE/logo1.svg" alt="logo" id="krug-logo" />
+            <img
+              src="../SLIKE/crveniDeoLogoa.svg"
+              alt="logo"
+              class="prva-crvena-linija"
+            />
+            <img
+              src="../SLIKE/crveniDeoLogoa2.svg"
+              alt="logo"
+              class="druga-crvena-linija"
+            />
+            <img
+              src="../SLIKE/crveniDeoLogoa3.svg"
+              alt="logo"
+              class="treca-crvena-linija"
+            />
+            <p><b>DVG COMPANY</b> Subotica</p>
+          </div>
+        </div>
+
+        <div class="desna-gornja-sekcija">
+          <a href="?lang=sr">Srpski</a>
+          <a href="?lang=en">English</a>
+          <a href="?lang=hu">Magyar</a>
+          <button id="button-menu">...</button>
+          <button id="theme-toggle">dark theme</button>
+        </div>
+      </div>
+      <div class="donja-sekcija">
+        <ul>
+          <li>
+            <a href="#link1"><b>O NAMA</b> vizija za uspeh</a>
+          </li>
+          <li>
+            <a href="#link2"> <b>DVG PROIZVODI</b> nasi proizvodi</a>
+          </li>
+          <li>
+            <a href="#link3"> <b>BRENDOVI</b> brendovi koje zastupamo</a>
+          </li>
+          <li>
+            <a href="#link4"> <b>DISTRIBUCIJA</b> logistika i distribucija</a>
+          </li>
+          <li>
+            <a href="#link5"> <b>SARADNJA</b> prosirenje ponude</a>
+          </li>
+          <li>
+            <a href="#link6"> <b>NOVOSTI</b> aktuelnosti</a>
+          </li>
+          <li>
+            <a href="#link7"> <b>KONTAKT</b> kontaktirjate nas</a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="naslovna-slika" data-aos="zoom-in" ></div>
+
+      <div class="krug"></div>
+
+      <div class="strelica-dole"></div>
+
+      <div class="vertikalna-linija"></div>
+    </header>
+
+    <main>
+      <div class="main-slika" data-aos="fade-right"></div>
+
+      <div class="container" data-aos="fade-up">
+        <h1>Dvg Company</h1>
+
+        <div class="crvena-linija"></div>
+
+        <p>Veleprodaja i maloprodaja kozmetike i kucne hemije</p>
+
+        <p>
+          DVG Company d.o.o. je trgovinsko preduzeće osnovano 2008. godine u
+          Subotici. <br />
+          Prvenstvena delatnost kompanije je <br />
+          veleprodaja kozmetike i kućne hemije. U potpunosti je u privatnom
+          vlasništvu, sa sedištem u Subotici. <br />
+          Tu se nalazi distrubutivni centar i poslovne prostorije, sa ukupno
+          3000m2 magacinskog prostora koji zadovoljava sve segmente u pogledu
+          smeštaja, čuvanja i plasiranja robe.
+        </p>
+
+        <button>Saznaj vise</button>
+      </div>
+
+    </main>
+
+    <div class="parallax" data-aos="zoom-in"></div>
+
+    
+
+
+  <!-- SLIDER -->
+  <div id="slider" data-aos="fade-up">
+    <a href="#" class="control_next">></a>
+    <a href="#" class="control_prev"><</a>
+            <ul>
+                <li>
+
+                    <div class="slide">
+                        <img src="../SLIKE/malaSlika1.svg" alt="slika1">
+                        <div class="text-below">POSTANITE NAS PARTNER</div>
+                        <div class="red-line-small"></div>
+                    </div>
+
+                </li>
+                <li style="background: #fff">
+                    <div class="slide">
+                        <img src="../SLIKE/malaSlika2.svg" alt="slika2">
+                        <div class="text-below">NASI PROIZVODI</div>
+                        <div class="red-line-small"></div>
+                    </div>
+                </li>
+                <li>
+                    <div class="slide">
+                        <img src="../SLIKE/malaSlika3.svg" alt="slika3">
+                        <div class="text-below">UVOZ IZ MADJARSKE</div>
+                        <div class="red-line-small"></div>
+                    </div>
+                </li>
+
+            </ul>
+</div>
+
+
+   <!-- SLIDER -->
+
+
+
+
+
+    <div class="dvg-company" data-aos="fade-up">
+      <div id="text" data-aos="fade-up">
+        <h2>DVG Company</h2>
+        <p>u brojkama</p>
+      </div>
+
+      <div id="red-line"></div>
+
+      <div id="numbers"></div>
+    </div>
+
+    <div class="our-products" data-aos="fade-up">
+      <div id="our-products-text">
+        <h3>Naši proizvodi</h3>
+      </div>
+
+      <div id="grey-line" data-aos="fade-up"></div>
+
+      <div id="our-products-description">
+        <p>
+          Naše proizvode DVG Cosmetics odlikuje visok kvalitet kojim se dobija
+          kompletna nega lica I tela. <br />
+          Uspeli smo da uskladimo kvalitet i cenu, <br />
+          što su prepoznali i našI kupci.
+        </p>
+      </div>
+
+      <div id="scroll-products" data-aos="fade-up"></div>
+    </div>
+
+    <div class="distirbution-brands" data-aos="fade-up">
+      <div id="distribution-text">
+        <p>
+          Istaknuti brendovi za koje radimo <br />
+          distribuciju
+        </p>
+        <p></p>
+      </div>
+
+      <div id="grey-line2"></div>
+
+      <div id="brands-pictures"></div>
+
+      <div class="button-all-products">
+        <button id="all-products">Svi brendovi u nasem portfoliu</button>
+      </div>
+    </div>
+
+    <footer></footer>
+  </body>
+
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script src="../JS/main.js"></script>
+
+  
+</html>
